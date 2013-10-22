@@ -1,0 +1,5 @@
+﻿10, Boxer, female, 350, Germany, Roni, Gold, 0
+1, Nemska ovcharka, male, 200, Germany, Rex, Black, 1
+7, Bulonka, female, 300, USA, Kiki, White, 1
+5, Koker, male, 480, Austria, J, Braun, 2
+2, Boxer, male, 490, Russia, Sharo, Braun, 0

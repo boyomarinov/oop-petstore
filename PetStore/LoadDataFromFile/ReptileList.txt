@@ -1,0 +1,5 @@
+10, Piton, female, 350, Germany, Roni, 0, 1
+1, Iguana, male, 200, Germany, Rex, 1, 2
+7, CornSnake, female, 300, USA, Kiki, 0, 1
+5, Turtle, male, 480, Austria, J, 0, 0
+2, Lizard, male, 490, Russia, Rex, 1, 2

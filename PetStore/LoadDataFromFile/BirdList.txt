@@ -1,0 +1,5 @@
+2, Cockatoo, female, 350, Germany, Roni, 0
+1, Conure, male, 200, Germany, Duke, 1
+5, Macaw, female, 300, USA, Itsy, 0
+3, Parrot, male, 480, Austria, Jesse, 1
+2, Macaw, male, 490, Russia, Lucky, 0

@@ -1,0 +1,5 @@
+10, Persian, female, 350, Germany, Roni, Braun, 0
+1, Siamese, male, 200, Germany, Knuckles, Black, 1
+7, Scottish Fold, female, 300, USA, Kiki, white, 2
+5, Siamese, male, 480, Austria, Franco, Braun, 1
+2, Savannah, male, 490, Russia, Dewey, Gold, 0

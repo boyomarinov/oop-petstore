@@ -1,0 +1,6 @@
+D:\Visual projects\PetStore\PetStore\bin\Debug\PetStore.exe.config
+D:\Visual projects\PetStore\PetStore\bin\Debug\PetStore.exe
+D:\Visual projects\PetStore\PetStore\bin\Debug\PetStore.pdb
+D:\Visual projects\PetStore\PetStore\obj\Debug\PetStore.csprojResolveAssemblyReference.cache
+D:\Visual projects\PetStore\PetStore\obj\Debug\PetStore.exe
+D:\Visual projects\PetStore\PetStore\obj\Debug\PetStore.pdb

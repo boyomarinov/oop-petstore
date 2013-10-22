@@ -1,0 +1,2 @@
+Ivan Ivanov, 25, 1, 6, 700, 2
+Maria Petkova, 28, 2, 7, 800, 1

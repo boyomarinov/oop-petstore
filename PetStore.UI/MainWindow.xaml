@@ -1,0 +1,212 @@
+﻿<Window x:Class="PetStore.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pet Store" Height="400" Width="980">
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="WhiteBrush" Color="White"/>
+        <SolidColorBrush x:Key="SolidBorderBrush" Color="Black" />
+        <SolidColorBrush x:Key="WhiteSmokeBrush" Color="WhiteSmoke" />
+        <SolidColorBrush x:Key="DisabledBackgroundBrush" Color="White" />
+        <SolidColorBrush x:Key="DisabledBorderBrush" Color="Black" />
+        <SolidColorBrush x:Key="DisabledForegroundBrush" Color="WhiteSmoke" />
+
+        <Style TargetType="{x:Type TabItem}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TabItem}">
+                        <Grid>
+                            <Border 
+            Name="Border"
+            Margin="4,3,5,5" 
+            Background="{StaticResource WhiteBrush}"
+            BorderBrush="{StaticResource SolidBorderBrush}" 
+            BorderThickness="1,1,1,1" 
+            CornerRadius="0,0,0,0" >
+                                <ContentPresenter x:Name="ContentSite"
+              VerticalAlignment="Center"
+              HorizontalAlignment="Center"
+              ContentSource="Header"
+              Margin="15,5,15,5"
+              
+              RecognizesAccessKey="True"/>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Panel.ZIndex" Value="100" />
+                                <Setter TargetName="Border" Property="Background" Value="{StaticResource WhiteSmokeBrush}" />
+                                <Setter TargetName="Border" Property="BorderThickness" Value="1,1,1,1" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="Border" Property="Background" Value="{StaticResource DisabledBackgroundBrush}" />
+                                <Setter TargetName="Border" Property="BorderBrush" Value="{StaticResource DisabledBorderBrush}" />
+                                <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid>
+        <TabControl>
+            
+            <TabItem Header="Pets">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="images/PetBackground.png" Opacity="0.9" AlignmentX="Left" />
+                    </Grid.Background>
+
+                    <Button Content="Show All Pets" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="195" Height="42" Click="Button_Click_1"/>
+
+                    <Button Margin="10,57,862,197" Click="Button_Click_2">
+                        <Image Source="images/cat1.jpg" Width="80"></Image>
+                    </Button>
+                    <Button Margin="105,57,748,197" Click="Button_Click_3">
+                        <Image Source="images/Animal-Dog.jpg"></Image>
+                    </Button>
+                    <Button Margin="9,130,862,115" Click="Button_Click_4">
+                        <Image Source="images/hullamos.jpg"></Image>
+                    </Button>
+                    <Button Margin="105,130,748,115" Click="Button_Click_5">
+                        <Image Source="images/reptile.jpg"></Image>
+                    </Button>
+                    <Button Margin="10,212,862,42" Click="Button_Click_6">
+                        <Image Source="images/hamster.jpg"></Image>
+                    </Button>
+                    <Button Margin="105,212,748,42" Click="Button_Click_7">
+                        <Image Source="images/fish.jpg"></Image>
+                    </Button>
+
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="229,10,0,48">
+                        <StackPanel x:Name="AnimalList"/>
+                    </ScrollViewer>
+
+                    <Button Content="Sort by AGE" HorizontalAlignment="Left" Margin="234,279,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_8"/>
+                    <Button Content="Sort by BREED" HorizontalAlignment="Left" Margin="352,279,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_9"/>
+                    <Button Content="Sort by GENDER" HorizontalAlignment="Left" Margin="471,279,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_10"/>
+
+                </Grid>
+            </TabItem>
+
+
+            <TabItem Header="Products">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="images/ProductsBackground.png" Opacity="0.9" AlignmentX="Left"/>
+                    </Grid.Background>
+                    <Button Content="Show all products" Margin="10,10,707,265" Click="Button_Click_11">
+                        <!--<Image Source="images/pets.jpg"></Image>-->
+                    </Button>
+                    <Button Margin="10,62,832,140" Click="Button_Click_12">
+                        <StackPanel Orientation="Vertical" Height="110" Width="110">
+                            <Image HorizontalAlignment="Center" Source="images/food.jpg" Height="88" Margin="-7,0,-4,0" Width="131"/>
+                            <TextBlock TextAlignment="Center"><Run Text="Nutritive"/></TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Button Margin="135,62,707,140" Click="Button_Click_13">
+                        <!--<Image Source="images/pets.jpg"></Image>-->
+                        <StackPanel Orientation="Vertical" Height="117" Width="110">
+                            <Image HorizontalAlignment="Center" Source="images/collars.jpg" Height="89" Margin="1,0,5,0" Width="104"/>
+                            <TextBlock TextAlignment="Center"><Run Text="Non Nutritive"/></TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Button Margin="10,192,832,10" Click="Button_Click_14">
+                        <!--<Image Source="images/pets.jpg"></Image>-->
+                        <StackPanel Orientation="Vertical" Height="110" Width="110">
+                            <Image HorizontalAlignment="Center" Source="images/vitamins.jpg" Height="89" Margin="3,0,2,0" Width="105"/>
+                            <TextBlock TextAlignment="Center"><Run Text="Medicine"/></TextBlock>
+                        </StackPanel>
+                    </Button>
+
+                    <StackPanel x:Name="ProductList" HorizontalAlignment="Left" Height="318" Margin="273,10,0,0" VerticalAlignment="Top" Width="679">
+
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Customer">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="images/CustomerBackground.png" Opacity="0.9" AlignmentX="Left" />
+                    </Grid.Background>
+
+                    <ComboBox x:Name="CustomersList" Margin="10,10,807,0" VerticalAlignment="Top" Height="27" SelectionChanged="CustomersList_SelectionChanged"/>
+
+                    <Label Content="Name: " HorizontalAlignment="Left" Margin="0,51,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label x:Name="customerName" Content="" HorizontalAlignment="Left" Margin="50,51,0,0" VerticalAlignment="Top" Width="105"/>
+                    <Label Content="Age:" HorizontalAlignment="Left" Margin="0,82,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label x:Name="customerAge" Content="" HorizontalAlignment="Left" Margin="50,82,0,0" VerticalAlignment="Top" Width="105"/>
+                    <Label Content="Phone:" HorizontalAlignment="Left" Margin="0,113,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label  x:Name="customerPhone" Content="" HorizontalAlignment="Left" Margin="50,113,0,0" VerticalAlignment="Top" Width="105"/>
+                    <Button Content="Buy Products" HorizontalAlignment="Left" Margin="10,263,0,0" VerticalAlignment="Top" Width="155" Height="40" Click="Button_Click_15"/>
+
+                    <Label Content="Purchased pets and products" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="172,10,0,0" VerticalAlignment="Top" Width="167"/>
+                    <ListView x:Name="PurchasedPetsAndProducts" Margin="172,43,441,10"/>
+
+                    <Label Content="Available pets and products in PetStore" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="526,10,0,0" VerticalAlignment="Top" Width="223"/>
+                    <ListView x:Name="PetsAndProducts" Margin="526,43,10,10">
+                    </ListView>
+
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Seller">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="images/SellerBackground.png" Opacity="0.9" AlignmentX="Left" />
+                    </Grid.Background>
+
+                    <ComboBox x:Name="SellerList" Margin="10,10,765,0" VerticalAlignment="Top" Height="27" SelectionChanged="SellerList_SelectionChanged_1"/>
+
+                    <Label Content="Name: " HorizontalAlignment="Left" Margin="0,51,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label x:Name="sellerName" Content="" HorizontalAlignment="Left" Margin="50,51,0,0" VerticalAlignment="Top" Width="157"/>
+                    <Label Content="Age:" HorizontalAlignment="Left" Margin="0,82,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label x:Name="sellerAge" Content="" HorizontalAlignment="Left" Margin="50,82,0,0" VerticalAlignment="Top" Width="157"/>
+                    <Label Content="Position:" HorizontalAlignment="Left" Margin="0,113,0,0" VerticalAlignment="Top" Width="59"/>
+                    <Label  x:Name="sellerPosition" Content="" HorizontalAlignment="Left" Margin="50,113,0,0" VerticalAlignment="Top" Width="157"/>
+                    <Label Content="Salary: " HorizontalAlignment="Left" Margin="0,144,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label x:Name="sellerSalary" Content="" HorizontalAlignment="Left" Margin="50,144,0,0" VerticalAlignment="Top" Width="157"/>
+
+                    <Button Content="Sell Products" HorizontalAlignment="Left" Margin="10,263,0,0" VerticalAlignment="Top" Width="187" Height="40"/>
+
+                    <Label Content="Available pets and products in PetStore" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="212,10,0,0" VerticalAlignment="Top" Width="223"/>
+                    <ListView x:Name="AllPetsAndProducts" Margin="212,43,262,10">
+                    </ListView>
+
+                    <Label Content="Reputation" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="799,10,0,0" VerticalAlignment="Top" Width="74"/>
+                    <Label x:Name="sellerReputation" Content="" FontSize="60" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  HorizontalAlignment="Center" Margin="787,43,74,208" VerticalAlignment="Center" Height="87" Width="101"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Manager">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="images/ManagerBackground.png" Opacity="0.9" AlignmentX="Left" />
+                    </Grid.Background>
+
+                    <Image x:Name="managerPhoto" HorizontalAlignment="Left" Height="137" Margin="10,10,0,0" VerticalAlignment="Top" Width="155"/>
+
+                    <Label Content="Name: " HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label x:Name="managerName" Content="" HorizontalAlignment="Left" Margin="60,147,0,0" VerticalAlignment="Top" Width="105"/>
+                    <Label Content="Age:" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label x:Name="managerAge" Content="" HorizontalAlignment="Left" Margin="60,173,0,0" VerticalAlignment="Top" Width="105"/>
+
+                    <Button Content="Hire Shop Assistant" HorizontalAlignment="Left" Margin="10,197,0,0" VerticalAlignment="Top" Width="155" Height="32"/>
+                    <Button Content="Fire Shop Assistant" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="155" Height="32"/>
+                    <Button Content="Change Product Price" HorizontalAlignment="Left" Margin="10,271,0,0" VerticalAlignment="Top" Width="155" Height="32"/>
+
+                    <Label Content="PetStore Shop Assistants" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="172,10,0,0" VerticalAlignment="Top" Width="167"/>
+                    <ListView x:Name="ShopAssistantsList" Margin="172,43,441,10"/>
+
+                    <Label Content="Available pets and products in PetStore" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="526,10,0,0" VerticalAlignment="Top" Width="223"/>
+                    <ListView x:Name="AvailablePetsAndProducts" Margin="526,43,10,10">
+                    </ListView>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

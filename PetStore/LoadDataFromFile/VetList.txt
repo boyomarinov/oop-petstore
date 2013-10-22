@@ -1,0 +1,2 @@
+D-r Borislavov, 38, 0, 02123456
+D-r Krasimirova, 34, 1, 02987654

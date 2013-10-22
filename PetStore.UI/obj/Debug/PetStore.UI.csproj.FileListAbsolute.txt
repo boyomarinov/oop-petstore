@@ -1,0 +1,15 @@
+D:\Visual projects\PetStore\PetStore.UI\bin\Debug\PetStore.UI.exe.config
+D:\Visual projects\PetStore\PetStore.UI\bin\Debug\PetStore.UI.exe
+D:\Visual projects\PetStore\PetStore.UI\bin\Debug\PetStore.UI.pdb
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\PetStore.UI.csprojResolveAssemblyReference.cache
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\MainWindow.baml
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\MainWindow.g.cs
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\App.g.cs
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\PetStore.UI_MarkupCompile.cache
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\PetStore.UI.g.resources
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\PetStore.UI.Properties.Resources.resources
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\PetStore.UI.csproj.GenerateResource.Cache
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\PetStore.UI.exe
+D:\Visual projects\PetStore\PetStore.UI\obj\Debug\PetStore.UI.pdb
+D:\Visual projects\PetStore\PetStore.UI\bin\Debug\PetStore.exe
+D:\Visual projects\PetStore\PetStore.UI\bin\Debug\PetStore.pdb

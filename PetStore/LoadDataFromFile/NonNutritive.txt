@@ -1,0 +1,4 @@
+Dog Collar, 15, 3, 3, Beautiful Dog Collar, kg, Dog, appliance
+Cat Collar, 20, 1, 2, Random Cat Collar, kg, Cat, appliance
+Cat Collar2, 30, 1, 1, Deluxe Cat Collar, kg, Cat, appliance
+Cat Collar3, 40, 1, 1, Platinum Cat Collar, kg, Cat, appliance

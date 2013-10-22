@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PetStore.Animals.Animal">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABCAAAAQgAQACAAEgAgIQAAAAEAAAEAAgAAAIAAAA=</HashCode>
+      <FileName>Animals\Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Animals.Bird">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAEAAAAAAAAAAAEAEAABAAAAAAAA=</HashCode>
+      <FileName>Animals\Bird.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Animals.Cat">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgAAAAAAAEAEAAAAAAAAAAAACAAAAAgAAAAAA=</HashCode>
+      <FileName>Animals\Cat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Animals.Dog">
+    <Position X="2.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgAAAAAAAEAEAAAAAAAAAAAACAAAAAgAAAAAA=</HashCode>
+      <FileName>Animals\Dog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Animals.Fish">
+    <Position X="4" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAEAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Animals\Fish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Animals.InvalidGenderException&lt;T&gt;">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAgABAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Animals\InvalidGenderException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Animals.Reptile">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEBEAAAAQAAAAAAAAAAgAAAAIAAAA=</HashCode>
+      <FileName>Animals\Reptile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Animals.Rodent">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAAIAAAACAA=</HashCode>
+      <FileName>Animals\Rodent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.LoadDataFromFile.LoadData">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABUAgABAAAAAAAABAEABAAEABAAAAAAAgAAECAA=</HashCode>
+      <FileName>LoadDataFromFile\LoadData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.People.Customer">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQABCABAAAkQIAAQACAAEAAQAAAAAAAAAEAAAA=</HashCode>
+      <FileName>People\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PetStore.People.Person">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>People\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.People.Seller">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAAAAgAAAkAABAIAAAABAAAAQQAAAAAAAAgAA=</HashCode>
+      <FileName>People\Seller.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PetStore.People.StoreManager">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAAiAAAAAAAA=</HashCode>
+      <FileName>People\StoreManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PetStore.People.Vet">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAABAAAEAQAAAAAAgAAgAJAQAAEA=</HashCode>
+      <FileName>People\Vet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PetStore.Products.FileDataExtractor" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwABAAAAAIAAAgGAoAAAABAEAQAVAAEMAAAAAgAAgCA=</HashCode>
+      <FileName>Products\FileDataExtractor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PetStore.Products.Medicine">
+    <Position X="13.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAABAAAAAQAAAAEAAAIAAAACA=</HashCode>
+      <FileName>Products\Medicine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Products.NonNutritive">
+    <Position X="15.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Products\NonNutritive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Products.Nutritive">
+    <Position X="17.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Products\Nutritive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Products.PetProduct">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAAQCgAAAEoAAAAAQAAQAFAAECAAAAAgAAAAA=</HashCode>
+      <FileName>Products\PetProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetStore.Store">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYEAAAUBgAZIESAEiSgRAEABACsgBgABAAEAgwwFCEg=</HashCode>
+      <FileName>Store.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PetStore.People.Address">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAAIAAAAAAA=</HashCode>
+      <FileName>People\Address.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PetStore.People.Appointment">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>People\Appointment.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PetStore.People.PhoneNumber">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAA=</HashCode>
+      <FileName>People\PhoneNumber.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="PetStore.People.ICustomer">
+    <Position X="8" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACABAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>People\ICustomer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PetStore.People.IManager">
+    <Position X="11.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAiAAAAAAAA=</HashCode>
+      <FileName>People\IManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PetStore.People.ISeller">
+    <Position X="6.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>People\ISeller.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PetStore.People.IVet">
+    <Position X="9.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>People\IVet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PetStore.Products.IDataFactory">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\IDataFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PetStore.Animals.CategoryRodent">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAASAAAAAAAAAAAAAAAAABAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Animals\CategoryRodent.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PetStore.Animals.FishType">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAA=</HashCode>
+      <FileName>Animals\FishType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PetStore.Animals.Fur">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animals\Fur.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PetStore.Animals.TypeSkin">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animals\TypeSkin.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PetStore.People.SellerPosition">
+    <Position X="6.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>People\SellerPosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PetStore.People.Specialization">
+    <Position X="8" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAACA=</HashCode>
+      <FileName>People\Specialization.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PetStore.Products.FootType">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Products\FootTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PetStore.MedicineType">
+    <Position X="15.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACAAAAAAAACAAAAAgAAAgAAAAAAAAAAAgAAAACA=</HashCode>
+      <FileName>Products\MedicineTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

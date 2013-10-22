@@ -1,0 +1,5 @@
+1, Guppies, female, 10, Germany, Ime1 , 0
+2, Neon Tetra, male, 20, Germany, Ime2 , 0
+3, Albino, female, 30, USA, Ime3 , 1
+1, Platies, male, 40, Austria, Ime4 , 1
+2, Goldfish, male, 50, Russia, Ime5 , 1

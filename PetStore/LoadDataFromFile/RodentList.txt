@@ -1,0 +1,5 @@
+1, Chinchilla, female, 350, Germany, Roni, 0, 0
+1, Hamster, male, 200, Germany, Rex, 1, 3
+7, GuineaPig, female, 300, USA, Kiki, 0, 2
+5, Degu, male, 480, Austria, J, 0, 1
+2, Hamster, male, 490, Russia, Rex, 1, 3

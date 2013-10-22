@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E7BA469-60F1-443E-B19E-D91F73121188}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PetStore</RootNamespace>
+    <AssemblyName>PetStore</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animals\Animal.cs" />
+    <Compile Include="Animals\AnimalList.cs" />
+    <Compile Include="Animals\Bird.cs" />
+    <Compile Include="Animals\Cat.cs" />
+    <Compile Include="Animals\CategoryRodent.cs" />
+    <Compile Include="Animals\Dog.cs" />
+    <Compile Include="Animals\Fish.cs" />
+    <Compile Include="Animals\FishType.cs" />
+    <Compile Include="Animals\Fur.cs" />
+    <Compile Include="Animals\InvalidGenderException.cs" />
+    <Compile Include="Animals\Reptile.cs" />
+    <Compile Include="Animals\Rodent.cs" />
+    <Compile Include="Animals\TypeSkin.cs" />
+    <Compile Include="LoadDataFromFile\LoadData.cs" />
+    <Compile Include="Products\MedicineTypes.cs" />
+    <Compile Include="People\Address.cs" />
+    <Compile Include="People\Appointment.cs" />
+    <Compile Include="People\Customer.cs" />
+    <Compile Include="People\ICustomer.cs" />
+    <Compile Include="People\IManager.cs" />
+    <Compile Include="People\ISeller.cs" />
+    <Compile Include="People\IVet.cs" />
+    <Compile Include="People\Person.cs" />
+    <Compile Include="People\PhoneNumber.cs" />
+    <Compile Include="People\Seller.cs" />
+    <Compile Include="People\SellerPosition.cs" />
+    <Compile Include="People\Specialization.cs" />
+    <Compile Include="People\StoreManager.cs" />
+    <Compile Include="People\Vet.cs" />
+    <Compile Include="Products\FileDataExtractor.cs" />
+    <Compile Include="Products\FootTypes.cs" />
+    <Compile Include="Products\IDataFactory.cs" />
+    <Compile Include="Products\Medicine.cs" />
+    <Compile Include="Products\NonNutritive.cs" />
+    <Compile Include="Products\Nutritive.cs" />
+    <Compile Include="Products\PetProduct.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="StoreAPI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LoadDataFromFile\BirdList.txt" />
+    <Content Include="LoadDataFromFile\CatList.txt" />
+    <Content Include="LoadDataFromFile\CustomerList.txt" />
+    <Content Include="LoadDataFromFile\DogList.txt" />
+    <Content Include="LoadDataFromFile\FishList.txt" />
+    <Content Include="LoadDataFromFile\Medicine.txt" />
+    <Content Include="LoadDataFromFile\NonNutritive.txt" />
+    <Content Include="LoadDataFromFile\Nutritive.txt" />
+    <Content Include="LoadDataFromFile\ReptileList.txt" />
+    <Content Include="LoadDataFromFile\RodentList.txt" />
+    <Content Include="LoadDataFromFile\SellerList.txt" />
+    <Content Include="LoadDataFromFile\StoreManager.txt" />
+    <Content Include="LoadDataFromFile\VetList.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

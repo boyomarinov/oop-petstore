@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore", "PetStore\PetStore.csproj", "{9E7BA469-60F1-443E-B19E-D91F73121188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.UI", "PetStore.UI\PetStore.UI.csproj", "{007B35DF-D774-4421-94BD-A70A108E7543}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://daffyduck.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PetStore\\PetStore.csproj
+		SccProjectName1 = PetStore
+		SccLocalPath1 = PetStore
+		SccProjectUniqueName2 = PetStore.UI\\PetStore.UI.csproj
+		SccProjectName2 = PetStore.UI
+		SccLocalPath2 = PetStore.UI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E7BA469-60F1-443E-B19E-D91F73121188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7BA469-60F1-443E-B19E-D91F73121188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7BA469-60F1-443E-B19E-D91F73121188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7BA469-60F1-443E-B19E-D91F73121188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007B35DF-D774-4421-94BD-A70A108E7543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007B35DF-D774-4421-94BD-A70A108E7543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007B35DF-D774-4421-94BD-A70A108E7543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007B35DF-D774-4421-94BD-A70A108E7543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
